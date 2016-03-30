@@ -1,0 +1,23 @@
+<!Doctype html>
+<html ng-app>
+<head>
+	<script src= "http://code.angularjs.org/angular-1.0.0rc3.min.js"></script>
+	<script src="http://documentcloud.github.com/underscore/underscore-min.js>"></script>
+	<script type="text/javascript" src="todo.js" ></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylsheet" href ="todo.css">
+
+</head>
+<body>
+	<div ng-controller="TodoCtrl">
+		<h2>Total Todos: {{totalTodos}}</h2>
+		<ul class = "unstyled">
+			<li ng-repeat="todo in todo">
+			<input type ="checkbox" ng-model="todo.done">
+			<span class = "done.{{todo.done}}">{{todo.text}}</span>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>

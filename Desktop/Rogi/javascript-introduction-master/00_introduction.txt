@@ -1,0 +1,8 @@
+Introduction
+
+Why a re-introduction? Because JavaScript is notorious for being 
+the world's most misunderstood programming language. While it is 
+often derided as a toy, beneath its deceptive simplicity lie some 
+powerful language features. JavaScript is now used by an incredible 
+number of high-profile applications, showing that deeper knowledge 
+of this technology is an important skill for any web or mobile developer.
